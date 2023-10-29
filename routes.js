@@ -6,7 +6,7 @@ const Router = express.Router();
 
 Router.get("/", async (req, res) => {
   try {
-    const response = await axios.get(`https://dummyjson.com/users`);
+    const response = await axios.get(`https://dummyjson.com/users/?limit=10`);
 
     // Extract the user data from the response
     const users = response.data.users;
