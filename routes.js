@@ -1,10 +1,10 @@
 const express = require("express");
 const axios = require("axios");
-const UserRouter = express.Router();
+const userRouter = express.Router();
 
 
 
-UserRouter.get("/", async (req, res) => {
+userRouter.get("/", async (req, res) => {
   try {
     const response = await axios.get(`https://dummyjson.com/users/?limit=10`);
     // Extract the user data from the response
@@ -21,5 +21,5 @@ UserRouter.get("/", async (req, res) => {
 });
 
 module.exports = {
-  UserRouter,
+  userRouter,
 };
