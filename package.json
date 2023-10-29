@@ -1,5 +1,5 @@
 {
-  "name": "redinax-backend",
+  "name": "redinax",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gyan2501/reidnax-backend.git"
+    "url": "git+https://github.com/gyan2501/reidnax.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gyan2501/reidnax-backend/issues"
+    "url": "https://github.com/gyan2501/reidnax/issues"
   },
-  "homepage": "https://github.com/gyan2501/reidnax-backend#readme",
+  "homepage": "https://github.com/gyan2501/reidnax#readme",
   "dependencies": {
     "axios": "^1.6.0",
     "cors": "^2.8.5",
