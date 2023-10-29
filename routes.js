@@ -7,10 +7,8 @@ const UserRouter = express.Router();
 UserRouter.get("/", async (req, res) => {
   try {
     const response = await axios.get(`https://dummyjson.com/users/?limit=10`);
-
     // Extract the user data from the response
     const users = response.data.users;
-
     // Send the users data to the client
     res.status(200).send({ message: "data", users });
   } catch (error) {
